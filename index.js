@@ -9,8 +9,8 @@ dotenv.config();
 /** Initializing ezpress app */
 const app = express();
 
-/** Getting port from EVN else initializing it to 8000 by default */
-const port = process.env.PORT || 8000;
+/** Getting port from EVN else initializing it to 3000 by default */
+const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello World");
